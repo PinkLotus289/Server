@@ -1,8 +1,14 @@
 {
   "sections": [
-    { "keyword": "BMW", "proxy_port": 20001 },
-    { "keyword": "Mercedes", "proxy_port": 20002 },
-    { "keyword": "Porsche", "proxy_port": 20003 }
+    {
+      "keyword": "BMW",
+      "proxy_port": 20001
+    },
+    {
+      "keyword": "Porsche",
+      "proxy_port": 20002
+    }
   ],
-  "output_dir": "JSONs"
+  "output_dir": "JSONs",
+  "page_size": 100
 }

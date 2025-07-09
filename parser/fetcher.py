@@ -48,6 +48,8 @@ class IaaIFetcher:
         if os.path.exists(profile_dir):
             shutil.rmtree(profile_dir)
 
+        profile_dir = tempfile.mkdtemp(prefix=f"udc_profile_{self.keyword}_{self.proxy_port}_")
+
         # 2) Опции Chrome
         opts = ChromeOptions()
         opts.add_argument("--ignore-certificate-errors")
@@ -92,6 +94,12 @@ class IaaIFetcher:
         self.user_agent = driver.execute_script("return navigator.userAgent;")
 
         driver.quit()
+
+        try:
+            shutil.rmtree(profile_dir, ignore_errors=True)
+        except Exception:
+            pass
+
         return self.max_page
 
     def build_client(self) -> httpx.Client:

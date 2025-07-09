@@ -1,5 +1,5 @@
 # api.py
-
+import difflib
 import os
 import sys
 import json
@@ -8,9 +8,9 @@ from pathlib import Path
 from typing import List, Optional
 from subprocess import Popen, PIPE
 
-from fastapi import FastAPI, Query, HTTPException, status
+from fastapi import FastAPI, Query, HTTPException, status, Body
 from fastapi.responses import FileResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, conlist
 from vehicle_view import view as car_view_func
 from fastapi.responses import JSONResponse
 
@@ -20,6 +20,7 @@ BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "JSONs"
 LOG_DIR  = BASE_DIR / "parser" / "logs"
 PROJECT_ROOT = Path(__file__).parent.resolve()
+SECTIONS_PATH = PROJECT_ROOT / "parser" / "sections.json"
 
 parser_proc = None
 
@@ -200,3 +201,133 @@ def delete_single_json(name: str):
 
     return {"status": "deleted", "file": filename}
 
+
+class Section(BaseModel):
+    keyword: str = Field(
+        ...,
+        description="Ключевое слово раздела",
+        example="BMW"
+    )
+    proxy_port: int = Field(
+        ...,
+        ge=1,
+        le=65535,
+        description="Порт прокси для раздела",
+        example=20001
+    )
+
+class SectionsConfig(BaseModel):
+    sections: List[Section] = Field(
+        ...,
+        min_items=1,
+        description="Список разделов (минимум один)"
+    )
+    output_dir: str = Field(
+        "JSONs",
+        description="Папка для вывода JSON-файлов"
+    )
+    page_size: int = Field(
+        100,
+        ge=1,
+        description="Размер страницы (число лотов за запрос)"
+    )
+
+def read_config() -> SectionsConfig:
+    try:
+        raw = SECTIONS_PATH.read_text(encoding="utf-8")
+        data = json.loads(raw)
+        return SectionsConfig.model_validate(data)
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail="sections.json не найден")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Ошибка чтения конфигурации: {e}")
+
+def write_config(cfg: SectionsConfig):
+    try:
+        SECTIONS_PATH.write_text(
+            json.dumps(cfg.model_dump(), ensure_ascii=False, indent=2),
+            encoding="utf-8"
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Не удалось сохранить sections.json: {e}")
+
+@app.get(
+    "/admin/sections",
+    response_model=SectionsConfig,
+    summary="Получить текущие разделы"
+)
+def get_sections():
+    """
+    Возвращает весь файл parser/sections.json.
+    """
+    return read_config()
+
+@app.post(
+    "/admin/section",
+    status_code=status.HTTP_201_CREATED,
+    summary="Добавить или обновить один раздел"
+)
+def add_or_update_section(
+    section: Section = Body(..., description="Новая конфигурация раздела")
+):
+    """
+    Если раздел с таким keyword есть — обновляем proxy_port,
+    иначе — добавляем его в список.
+    """
+    cfg = read_config()
+    # ищем существующий
+    for idx, sec in enumerate(cfg.sections):
+        if sec.keyword == section.keyword:
+            cfg.sections[idx].proxy_port = section.proxy_port
+            break
+    else:
+        cfg.sections.append(section)
+
+    write_config(cfg)
+    return {"status": "ok", "section": section}
+
+@app.delete(
+    "/admin/section/{keyword}",
+    status_code=200,
+    summary="Надёжно удалить раздел по keyword"
+)
+def delete_section(keyword: str):
+    """
+    Удаляет раздел с указанным keyword (игнорируя регистр и пробелы).
+    Если точного совпадения нет, предлагает похожие варианты.
+    """
+    cfg = read_config()
+    # нормализуем вход
+    key_norm = keyword.strip().lower()
+    # список всех существующих ключей
+    existing = [sec.keyword for sec in cfg.sections]
+    # ищем точное совпадение без учёта регистра
+    to_delete = [sec for sec in cfg.sections if sec.keyword.lower() == key_norm]
+
+    if not to_delete:
+        # никаких точных совпадений — попробуем найти похожие
+        suggestions = difflib.get_close_matches(
+            keyword,
+            existing,
+            n=3,
+            cutoff=0.5
+        )
+        if suggestions:
+            detail = (
+                f"Раздел '{keyword}' не найден. "
+                f"Возможно, вы имели в виду: {', '.join(suggestions)}"
+            )
+        else:
+            detail = (
+                f"Раздел '{keyword}' не найден. "
+                f"Доступные разделы: {', '.join(existing)}"
+            )
+        raise HTTPException(status_code=404, detail=detail)
+
+    # удаляем все совпавшие (обычно один)
+    cfg.sections = [
+        sec for sec in cfg.sections
+        if sec.keyword.lower() != key_norm
+    ]
+    write_config(cfg)
+    return {"status": "deleted", "keyword": to_delete[0].keyword}

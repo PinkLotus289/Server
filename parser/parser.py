@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import re
 
 def parse_items(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
