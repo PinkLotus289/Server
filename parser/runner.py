@@ -3,6 +3,7 @@ import json
 import time
 import logging
 import tempfile
+import urllib.parse
 import multiprocessing as mp
 from multiprocessing import Process, Queue
 
@@ -75,6 +76,25 @@ def process_section(
 
         items = parse_items(html)
         logger.info(f"Страница {page}: найдено {len(items)} лотов")
+
+        # —————————————————————
+        # ВЫЧИСЛЯЕМ stock# и photos
+        for item in items:
+            # 1) вытаскиваем из preview URL параметр imageKeys, например "43142134~SID~I1"
+            preview_url = item.get("preview", "")
+            parsed = urllib.parse.urlparse(preview_url)
+            qs = urllib.parse.parse_qs(parsed.query)
+            image_keys = qs.get("imageKeys", [""])[0]  # "43142134~SID~I1"
+            stock = image_keys.split("~")[0]  # "43142134"
+            item["stock#"] = stock
+
+            # 2) генерируем 13 ссылок I1..I13
+            item["photos"] = [
+                f"https://vis.iaai.com/resizer?imageKeys={stock}~SID~I{i}&width=1000&height=300"
+                for i in range(1, 12)
+            ]
+        # —————————————————————
+
         all_items.extend(items)
 
         with open(output_path, "w", encoding="utf-8") as f:

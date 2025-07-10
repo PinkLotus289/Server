@@ -1,4 +1,7 @@
 from bs4 import BeautifulSoup
+import re
+from datetime import datetime
+from dateutil import parser as date_parser
 
 def parse_items(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
@@ -28,6 +31,22 @@ def parse_items(html: str) -> list[dict]:
 
         preview = (row.find("img") or {}).get("data-src", "N/A")
         auc_date = (row.find("div", class_="table-cell-horizontal-center") or {}).get_text(strip=True)
+
+        # raw-строка вида "Tue Jul 15, 11:30am CDTPre-BidView Sale List"
+        raw = (row.find("div", class_="table-cell-horizontal-center") or {}).get_text(" ", strip=True)
+        # вырезаем всё до конца timezone (например "CDT")
+        m = re.match(r'^(.*?(?:am|pm)\s*[A-Z]{2,4})', raw, re.IGNORECASE)
+        if m:
+            try:
+                # разбираем дату, включая день недели, месяц, число, время и TZ-аббревиатуру
+                dt = date_parser.parse(m.group(1))
+                # форматируем в "YYYY-MM-DD HH:MM:SS"
+                auc_date = dt.strftime("%Y-%m-%d %H:%M:%S")
+            except Exception:
+            # на случай непредвиденного формата — оставляем «как есть»
+                auc_date = raw
+        else:
+            auc_date = raw
 
         items.append({
             "title": title,

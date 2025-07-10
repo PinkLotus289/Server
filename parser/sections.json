@@ -3,10 +3,6 @@
     {
       "keyword": "BMW",
       "proxy_port": 20001
-    },
-    {
-      "keyword": "Porsche",
-      "proxy_port": 20002
     }
   ],
   "output_dir": "JSONs",
