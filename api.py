@@ -4,8 +4,9 @@ import os
 import sys
 import json
 import signal
+import requests
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Dict
 from subprocess import Popen, PIPE
 
 from fastapi import FastAPI, Query, HTTPException, status, Body
@@ -13,6 +14,7 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field, conlist
 from vehicle_view import view as car_view_func
 from fastapi.responses import JSONResponse
+from apscheduler.schedulers.background import BackgroundScheduler
 
 
 # КОНСТАНТЫ
@@ -21,6 +23,7 @@ DATA_DIR = BASE_DIR / "JSONs"
 LOG_DIR  = BASE_DIR / "parser" / "logs"
 PROJECT_ROOT = Path(__file__).parent.resolve()
 SECTIONS_PATH = PROJECT_ROOT / "parser" / "sections.json"
+DATA_FILE = os.path.join(os.path.dirname(__file__), "JSONs", "Automobiles_lots.json")
 
 parser_proc = None
 
@@ -64,14 +67,72 @@ app = FastAPI(
 # Глобальная переменная для хранения процесса парсинга
 parser_proc: Optional[Popen] = None
 
-@app.get("/cars", response_model=List[Car])
-def list_cars(
-    limit: int = Query(100, gt=0, le=1000),
-    lastId: int = Query(0, ge=0),
-):
-    filtered = [c for c in _all_cars if c["lot_id"] > lastId]
-    return filtered[:limit]
 
+sched = BackgroundScheduler()
+
+def scheduled_run():
+    # сначала чистим JSON-файлы
+    try:
+        requests.post("http://127.0.0.1:8000/admin/clear-jsons", timeout=10)
+    except Exception as e:
+        # если что-то пошло не так — залогируем или просто проигнорируем
+        print("⛔ Не удалось очистить JSONs:", e)
+
+    # потом запускаем парсер
+    try:
+        requests.post("http://127.0.0.1:8000/admin/run-parser", timeout=10)
+    except Exception as e:
+        print("⛔ Не удалось запустить парсер:", e)
+
+# повесить задачу на каждый день в 8:30
+sched.add_job(
+    scheduled_run,
+    trigger="cron",
+    hour=8,
+    minute=30,
+    timezone="Europe/Moscow"  # поставьте вашу зону
+)
+sched.start()
+
+@app.on_event("shutdown")
+def shutdown_scheduler():
+    sched.shutdown()
+
+@app.get("/cars", response_model=List[Dict])
+async def get_cars(
+    limit:    int,
+    lastId:   int = Query(0, ge=0),
+    brand:    Optional[str] = Query(None, description="опциональная фильтрация по марке")
+):
+    # 1) Загружаем весь список
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        items = json.load(f)
+
+    # 2) Фильтруем по марке, если указали
+    if brand:
+        br = brand.lower()
+        items = [
+            it for it in items
+            if (
+                it.get("make", "").lower() == br                # если есть поле make
+                or br in it.get("title", "").lower()             # или в title
+            )
+        ]
+        if not items:
+            raise HTTPException(404, f"Нет лотов бренда «{brand}»")
+
+    # 3) Ищем позицию lastId
+    if lastId:
+        idx = next((i for i, it in enumerate(items) if it.get("lot_id") == lastId), None)
+        if idx is None:
+            raise HTTPException(400, f"lastId={lastId} не найден в результирующем списке")
+        start = idx + 1
+    else:
+        start = 0
+
+    # 4) Берём срез limit штук
+    slice_ = items[start : start + limit]
+    return slice_
 @app.post("/admin/run-parser", status_code=status.HTTP_202_ACCEPTED)
 def run_parser():
     global parser_proc

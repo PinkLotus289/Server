@@ -4,6 +4,7 @@ import os
 import math
 import tempfile
 import shutil
+import re
 import random
 
 import httpx
@@ -13,7 +14,7 @@ from seleniumwire.undetected_chromedriver.v2 import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+from datetime import datetime, timedelta, timezone
 from .utils import random_xff
 
 # ——————————————————————————————————————————
@@ -130,10 +131,17 @@ class IaaIFetcher:
 
     def fetch_page(self, client: httpx.Client, page: int) -> str:
         """
-        Загружает HTML страницы через POST-запрос.
+        Загружает HTML страницы через POST-запрос, с фильтром по дате аукциона сегодня–завтра.
         """
+        # 1) Формируем базовый payload
         payload = {
-            "Searches": [{"Facets": None, "FullSearch": self.keyword, "LongRanges": None}],
+            "Searches": [
+                {
+                    "Facets": None,
+                    "FullSearch": self.keyword,
+                    "LongRanges": []  # ← пустой список, не None
+                }
+            ],
             "ZipCode": "",
             "miles": 0,
             "PageSize": self.page_size,
@@ -141,8 +149,46 @@ class IaaIFetcher:
             "BidStatusFilters": [{"BidStatus": 6, "IsSelected": True}],
             "SaleStatusFilters": [{"SaleStatus": 1, "IsSelected": True}],
             "ShowRecommendations": False,
-            "Sort": [{"IsGeoSort": False, "SortField": "AuctionDateTime", "IsDescending": False}],
+            "Sort": [
+                {
+                    "IsGeoSort": False,
+                    "SortField": "AuctionDateTime",
+                    "IsDescending": False
+                }
+            ],
         }
+
+        # 2) Вставляем наш фильтр по AuctionDateTime
+        from datetime import datetime, timedelta
+
+        def datetime_to_ticks(dt: datetime) -> int:
+            # Эталон .NET-эпохи как «aware» в UTC
+            dotnet_epoch = datetime(1, 1, 1, tzinfo=timezone.utc)
+            # Переводим входящую дату в UTC-«aware»
+            dt_utc = dt.astimezone(timezone.utc)
+            # Разница в секундах * 10_000_000 даёт число тиков
+            return int((dt_utc - dotnet_epoch).total_seconds() * 10_000_000)
+
+        today_utc = datetime.now(timezone.utc).replace(
+            hour=0, minute=0, second=0, microsecond=0
+        )
+        end_tomorrow_utc = (today_utc + timedelta(days=2)).replace(microsecond=0)
+
+        payload["Searches"][0]["LongRanges"].append({
+            "Name": "AuctionDateTime",
+            "From": datetime_to_ticks(today_utc),
+            "To": datetime_to_ticks(end_tomorrow_utc) - 1,
+            "ForAnalytics": False
+        })
+
+        # 3) Случайный X-Forwarded-For — делаем один раз
         client.headers["X-Forwarded-For"] = random_xff()
-        resp = client.post("https://www.iaai.com/Search", json=payload)
+
+        # 4) Отправляем запрос и возвращаем HTML
+        # если у тебя есть self.search_api_url — используй его, иначе:
+        url = getattr(self, "search_api_url", "https://www.iaai.com/Search")
+        resp = client.post(url, json=payload)
         return resp.text
+
+
+

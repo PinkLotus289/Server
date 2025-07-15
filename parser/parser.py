@@ -48,6 +48,17 @@ def parse_items(html: str) -> list[dict]:
         else:
             auc_date = raw
 
+            # — Новый блок: Lane/Run
+            # пробуем точно селектором, если нет — fallback в get_span
+        lane_tag = row.select_one(
+            "ul.data-list--search li.data-list__item "
+            "span.data-list__value[title^='Lane/Run']"
+        )
+        if lane_tag:
+            lane_run = lane_tag.text.strip()
+        else:
+            lane_run = get_span("Lane/Run")
+
         items.append({
             "title": title,
             "link": link,
@@ -66,6 +77,7 @@ def parse_items(html: str) -> list[dict]:
             "country": get_span("Country"),
             "acv": get_span("ACV"),
             "auction_date": auc_date,
+            "lane_run": lane_run,
         })
 
     return items

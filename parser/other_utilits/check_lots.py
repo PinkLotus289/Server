@@ -1,7 +1,7 @@
 import json
 from collections import Counter
 
-FILE = "parser/JSONs/bmw_lots.json"
+FILE = "../../JSONs/Automobiles_lots.json"
 
 try:
     with open(FILE, "r", encoding="utf-8") as f:

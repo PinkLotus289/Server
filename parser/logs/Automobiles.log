@@ -1,0 +1,842 @@
+2025-07-15 16:11:26,305 [Automobiles] INFO: Started process pid=26113
+2025-07-15 16:11:26,305 [Automobiles] INFO: Waiting for browser init…
+2025-07-15 16:12:07,541 [Automobiles] INFO: Динамическое число страниц: 1891
+2025-07-15 16:12:07,622 [Automobiles] INFO: Запрос страницы 1/1891
+2025-07-15 16:12:10,040 [Automobiles] INFO: Страница 1: найдено 100 лотов
+2025-07-15 16:12:10,042 [Automobiles] INFO: Сохранено 100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:12,956 [Automobiles] INFO: Запрос страницы 2/1891
+2025-07-15 16:12:14,190 [Automobiles] INFO: Страница 2: найдено 100 лотов
+2025-07-15 16:12:14,194 [Automobiles] INFO: Сохранено 200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:19,168 [Automobiles] INFO: Запрос страницы 3/1891
+2025-07-15 16:12:21,507 [Automobiles] INFO: Страница 3: найдено 100 лотов
+2025-07-15 16:12:21,513 [Automobiles] INFO: Сохранено 300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:26,103 [Automobiles] INFO: Запрос страницы 4/1891
+2025-07-15 16:12:27,447 [Automobiles] INFO: Страница 4: найдено 100 лотов
+2025-07-15 16:12:27,455 [Automobiles] INFO: Сохранено 400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:30,339 [Automobiles] INFO: Запрос страницы 5/1891
+2025-07-15 16:12:31,698 [Automobiles] INFO: Страница 5: найдено 100 лотов
+2025-07-15 16:12:31,707 [Automobiles] INFO: Сохранено 500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:36,574 [Automobiles] INFO: Запрос страницы 6/1891
+2025-07-15 16:12:38,854 [Automobiles] INFO: Страница 6: найдено 100 лотов
+2025-07-15 16:12:38,864 [Automobiles] INFO: Сохранено 600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:43,400 [Automobiles] INFO: Запрос страницы 7/1891
+2025-07-15 16:12:44,657 [Automobiles] INFO: Страница 7: найдено 100 лотов
+2025-07-15 16:12:44,670 [Automobiles] INFO: Сохранено 700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:49,305 [Automobiles] INFO: Запрос страницы 8/1891
+2025-07-15 16:12:51,229 [Automobiles] INFO: Страница 8: найдено 100 лотов
+2025-07-15 16:12:51,242 [Automobiles] INFO: Сохранено 800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:55,619 [Automobiles] INFO: Запрос страницы 9/1891
+2025-07-15 16:12:56,880 [Automobiles] INFO: Страница 9: найдено 100 лотов
+2025-07-15 16:12:56,895 [Automobiles] INFO: Сохранено 900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:12:59,437 [Automobiles] INFO: Запрос страницы 10/1891
+2025-07-15 16:13:00,552 [Automobiles] INFO: Страница 10: найдено 100 лотов
+2025-07-15 16:13:00,568 [Automobiles] INFO: Сохранено 1000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:03,443 [Automobiles] INFO: Запрос страницы 11/1891
+2025-07-15 16:13:05,164 [Automobiles] INFO: Страница 11: найдено 100 лотов
+2025-07-15 16:13:05,187 [Automobiles] INFO: Сохранено 1100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:09,113 [Automobiles] INFO: Запрос страницы 12/1891
+2025-07-15 16:13:10,306 [Automobiles] INFO: Страница 12: найдено 100 лотов
+2025-07-15 16:13:10,324 [Automobiles] INFO: Сохранено 1200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:14,249 [Automobiles] INFO: Запрос страницы 13/1891
+2025-07-15 16:13:15,404 [Automobiles] INFO: Страница 13: найдено 100 лотов
+2025-07-15 16:13:15,424 [Automobiles] INFO: Сохранено 1300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:17,881 [Automobiles] INFO: Запрос страницы 14/1891
+2025-07-15 16:13:19,106 [Automobiles] INFO: Страница 14: найдено 100 лотов
+2025-07-15 16:13:19,128 [Automobiles] INFO: Сохранено 1400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:21,238 [Automobiles] INFO: Запрос страницы 15/1891
+2025-07-15 16:13:22,421 [Automobiles] INFO: Страница 15: найдено 100 лотов
+2025-07-15 16:13:22,445 [Automobiles] INFO: Сохранено 1500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:27,366 [Automobiles] INFO: Запрос страницы 16/1891
+2025-07-15 16:13:29,622 [Automobiles] INFO: Страница 16: найдено 100 лотов
+2025-07-15 16:13:29,646 [Automobiles] INFO: Сохранено 1600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:32,476 [Automobiles] INFO: Запрос страницы 17/1891
+2025-07-15 16:13:34,475 [Automobiles] INFO: Страница 17: найдено 100 лотов
+2025-07-15 16:13:34,501 [Automobiles] INFO: Сохранено 1700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:38,156 [Automobiles] INFO: Запрос страницы 18/1891
+2025-07-15 16:13:39,464 [Automobiles] INFO: Страница 18: найдено 100 лотов
+2025-07-15 16:13:39,492 [Automobiles] INFO: Сохранено 1800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:41,541 [Automobiles] INFO: Запрос страницы 19/1891
+2025-07-15 16:13:42,527 [Automobiles] INFO: Страница 19: найдено 100 лотов
+2025-07-15 16:13:42,555 [Automobiles] INFO: Сохранено 1900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:44,812 [Automobiles] INFO: Запрос страницы 20/1891
+2025-07-15 16:13:45,995 [Automobiles] INFO: Страница 20: найдено 100 лотов
+2025-07-15 16:13:46,025 [Automobiles] INFO: Сохранено 2000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:50,161 [Automobiles] INFO: Запрос страницы 21/1891
+2025-07-15 16:13:51,241 [Automobiles] INFO: Страница 21: найдено 100 лотов
+2025-07-15 16:13:51,273 [Automobiles] INFO: Сохранено 2100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:55,382 [Automobiles] INFO: Запрос страницы 22/1891
+2025-07-15 16:13:56,448 [Automobiles] INFO: Страница 22: найдено 100 лотов
+2025-07-15 16:13:56,481 [Automobiles] INFO: Сохранено 2200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:13:59,932 [Automobiles] INFO: Запрос страницы 23/1891
+2025-07-15 16:14:00,984 [Automobiles] INFO: Страница 23: найдено 100 лотов
+2025-07-15 16:14:01,018 [Automobiles] INFO: Сохранено 2300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:05,284 [Automobiles] INFO: Запрос страницы 24/1891
+2025-07-15 16:14:06,629 [Automobiles] INFO: Страница 24: найдено 100 лотов
+2025-07-15 16:14:06,668 [Automobiles] INFO: Сохранено 2400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:09,611 [Automobiles] INFO: Запрос страницы 25/1891
+2025-07-15 16:14:10,959 [Automobiles] INFO: Страница 25: найдено 100 лотов
+2025-07-15 16:14:10,995 [Automobiles] INFO: Сохранено 2500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:15,049 [Automobiles] INFO: Запрос страницы 26/1891
+2025-07-15 16:14:16,413 [Automobiles] INFO: Страница 26: найдено 100 лотов
+2025-07-15 16:14:16,453 [Automobiles] INFO: Сохранено 2600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:20,559 [Automobiles] INFO: Запрос страницы 27/1891
+2025-07-15 16:14:21,689 [Automobiles] INFO: Страница 27: найдено 100 лотов
+2025-07-15 16:14:21,730 [Automobiles] INFO: Сохранено 2700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:24,879 [Automobiles] INFO: Запрос страницы 28/1891
+2025-07-15 16:14:25,995 [Automobiles] INFO: Страница 28: найдено 100 лотов
+2025-07-15 16:14:26,042 [Automobiles] INFO: Сохранено 2800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:28,517 [Automobiles] INFO: Запрос страницы 29/1891
+2025-07-15 16:14:29,757 [Automobiles] INFO: Страница 29: найдено 100 лотов
+2025-07-15 16:14:29,801 [Automobiles] INFO: Сохранено 2900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:32,764 [Automobiles] INFO: Запрос страницы 30/1891
+2025-07-15 16:14:33,828 [Automobiles] INFO: Страница 30: найдено 100 лотов
+2025-07-15 16:14:33,873 [Automobiles] INFO: Сохранено 3000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:38,576 [Automobiles] INFO: Запрос страницы 31/1891
+2025-07-15 16:14:40,869 [Automobiles] INFO: Страница 31: найдено 100 лотов
+2025-07-15 16:14:40,918 [Automobiles] INFO: Сохранено 3100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:43,182 [Automobiles] INFO: Запрос страницы 32/1891
+2025-07-15 16:14:44,441 [Automobiles] INFO: Страница 32: найдено 100 лотов
+2025-07-15 16:14:44,495 [Automobiles] INFO: Сохранено 3200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:49,396 [Automobiles] INFO: Запрос страницы 33/1891
+2025-07-15 16:14:51,693 [Automobiles] INFO: Страница 33: найдено 100 лотов
+2025-07-15 16:14:51,746 [Automobiles] INFO: Сохранено 3300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:14:54,988 [Automobiles] INFO: Запрос страницы 34/1891
+2025-07-15 16:14:59,005 [Automobiles] INFO: Страница 34: найдено 100 лотов
+2025-07-15 16:14:59,055 [Automobiles] INFO: Сохранено 3400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:03,998 [Automobiles] INFO: Запрос страницы 35/1891
+2025-07-15 16:15:06,326 [Automobiles] INFO: Страница 35: найдено 100 лотов
+2025-07-15 16:15:06,389 [Automobiles] INFO: Сохранено 3500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:08,542 [Automobiles] INFO: Запрос страницы 36/1891
+2025-07-15 16:15:09,919 [Automobiles] INFO: Страница 36: найдено 100 лотов
+2025-07-15 16:15:09,976 [Automobiles] INFO: Сохранено 3600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:14,771 [Automobiles] INFO: Запрос страницы 37/1891
+2025-07-15 16:15:17,186 [Automobiles] INFO: Страница 37: найдено 100 лотов
+2025-07-15 16:15:17,243 [Automobiles] INFO: Сохранено 3700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:21,321 [Automobiles] INFO: Запрос страницы 38/1891
+2025-07-15 16:15:22,704 [Automobiles] INFO: Страница 38: найдено 100 лотов
+2025-07-15 16:15:22,763 [Automobiles] INFO: Сохранено 3800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:27,444 [Automobiles] INFO: Запрос страницы 39/1891
+2025-07-15 16:15:29,805 [Automobiles] INFO: Страница 39: найдено 100 лотов
+2025-07-15 16:15:29,866 [Automobiles] INFO: Сохранено 3900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:32,162 [Automobiles] INFO: Запрос страницы 40/1891
+2025-07-15 16:15:33,426 [Automobiles] INFO: Страница 40: найдено 100 лотов
+2025-07-15 16:15:33,489 [Automobiles] INFO: Сохранено 4000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:36,796 [Automobiles] INFO: Запрос страницы 41/1891
+2025-07-15 16:15:38,000 [Automobiles] INFO: Страница 41: найдено 100 лотов
+2025-07-15 16:15:38,062 [Automobiles] INFO: Сохранено 4100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:40,466 [Automobiles] INFO: Запрос страницы 42/1891
+2025-07-15 16:15:41,957 [Automobiles] INFO: Страница 42: найдено 100 лотов
+2025-07-15 16:15:42,037 [Automobiles] INFO: Сохранено 4200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:44,398 [Automobiles] INFO: Запрос страницы 43/1891
+2025-07-15 16:15:46,142 [Automobiles] INFO: Страница 43: найдено 100 лотов
+2025-07-15 16:15:46,238 [Automobiles] INFO: Сохранено 4300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:48,438 [Automobiles] INFO: Запрос страницы 44/1891
+2025-07-15 16:15:49,617 [Automobiles] INFO: Страница 44: найдено 100 лотов
+2025-07-15 16:15:49,682 [Automobiles] INFO: Сохранено 4400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:53,113 [Automobiles] INFO: Запрос страницы 45/1891
+2025-07-15 16:15:54,229 [Automobiles] INFO: Страница 45: найдено 100 лотов
+2025-07-15 16:15:54,301 [Automobiles] INFO: Сохранено 4500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:15:57,247 [Automobiles] INFO: Запрос страницы 46/1891
+2025-07-15 16:15:58,429 [Automobiles] INFO: Страница 46: найдено 100 лотов
+2025-07-15 16:15:58,502 [Automobiles] INFO: Сохранено 4600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:03,155 [Automobiles] INFO: Запрос страницы 47/1891
+2025-07-15 16:16:05,451 [Automobiles] INFO: Страница 47: найдено 100 лотов
+2025-07-15 16:16:05,523 [Automobiles] INFO: Сохранено 4700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:10,100 [Automobiles] INFO: Запрос страницы 48/1891
+2025-07-15 16:16:12,357 [Automobiles] INFO: Страница 48: найдено 100 лотов
+2025-07-15 16:16:12,433 [Automobiles] INFO: Сохранено 4800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:17,260 [Automobiles] INFO: Запрос страницы 49/1891
+2025-07-15 16:16:19,590 [Automobiles] INFO: Страница 49: найдено 100 лотов
+2025-07-15 16:16:19,669 [Automobiles] INFO: Сохранено 4900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:22,865 [Automobiles] INFO: Запрос страницы 50/1891
+2025-07-15 16:16:24,113 [Automobiles] INFO: Страница 50: найдено 100 лотов
+2025-07-15 16:16:24,197 [Automobiles] INFO: Сохранено 5000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:28,442 [Automobiles] INFO: Запрос страницы 51/1891
+2025-07-15 16:16:29,747 [Automobiles] INFO: Страница 51: найдено 100 лотов
+2025-07-15 16:16:29,823 [Automobiles] INFO: Сохранено 5100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:34,691 [Automobiles] INFO: Запрос страницы 52/1891
+2025-07-15 16:16:37,766 [Automobiles] INFO: Страница 52: найдено 100 лотов
+2025-07-15 16:16:37,855 [Automobiles] INFO: Сохранено 5200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:42,819 [Automobiles] INFO: Запрос страницы 53/1891
+2025-07-15 16:16:45,565 [Automobiles] INFO: Страница 53: найдено 100 лотов
+2025-07-15 16:16:45,643 [Automobiles] INFO: Сохранено 5300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:48,621 [Automobiles] INFO: Запрос страницы 54/1891
+2025-07-15 16:16:49,895 [Automobiles] INFO: Страница 54: найдено 100 лотов
+2025-07-15 16:16:49,973 [Automobiles] INFO: Сохранено 5400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:16:54,966 [Automobiles] INFO: Запрос страницы 55/1891
+2025-07-15 16:16:57,711 [Automobiles] INFO: Страница 55: найдено 100 лотов
+2025-07-15 16:16:57,797 [Automobiles] INFO: Сохранено 5500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:01,999 [Automobiles] INFO: Запрос страницы 56/1891
+2025-07-15 16:17:03,241 [Automobiles] INFO: Страница 56: найдено 100 лотов
+2025-07-15 16:17:03,331 [Automobiles] INFO: Сохранено 5600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:07,394 [Automobiles] INFO: Запрос страницы 57/1891
+2025-07-15 16:17:09,043 [Automobiles] INFO: Страница 57: найдено 100 лотов
+2025-07-15 16:17:09,154 [Automobiles] INFO: Сохранено 5700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:11,562 [Automobiles] INFO: Запрос страницы 58/1891
+2025-07-15 16:17:13,196 [Automobiles] INFO: Страница 58: найдено 100 лотов
+2025-07-15 16:17:13,296 [Automobiles] INFO: Сохранено 5800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:16,725 [Automobiles] INFO: Запрос страницы 59/1891
+2025-07-15 16:17:17,942 [Automobiles] INFO: Страница 59: найдено 100 лотов
+2025-07-15 16:17:18,051 [Automobiles] INFO: Сохранено 5900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:22,157 [Automobiles] INFO: Запрос страницы 60/1891
+2025-07-15 16:17:23,384 [Automobiles] INFO: Страница 60: найдено 100 лотов
+2025-07-15 16:17:23,480 [Automobiles] INFO: Сохранено 6000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:26,729 [Automobiles] INFO: Запрос страницы 61/1891
+2025-07-15 16:17:27,917 [Automobiles] INFO: Страница 61: найдено 100 лотов
+2025-07-15 16:17:28,015 [Automobiles] INFO: Сохранено 6100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:32,264 [Automobiles] INFO: Запрос страницы 62/1891
+2025-07-15 16:17:33,658 [Automobiles] INFO: Страница 62: найдено 100 лотов
+2025-07-15 16:17:33,767 [Automobiles] INFO: Сохранено 6200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:38,672 [Automobiles] INFO: Запрос страницы 63/1891
+2025-07-15 16:17:41,291 [Automobiles] INFO: Страница 63: найдено 100 лотов
+2025-07-15 16:17:41,384 [Automobiles] INFO: Сохранено 6300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:46,090 [Automobiles] INFO: Запрос страницы 64/1891
+2025-07-15 16:17:48,596 [Automobiles] INFO: Страница 64: найдено 100 лотов
+2025-07-15 16:17:48,713 [Automobiles] INFO: Сохранено 6400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:52,139 [Automobiles] INFO: Запрос страницы 65/1891
+2025-07-15 16:17:53,375 [Automobiles] INFO: Страница 65: найдено 100 лотов
+2025-07-15 16:17:53,477 [Automobiles] INFO: Сохранено 6500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:17:57,749 [Automobiles] INFO: Запрос страницы 66/1891
+2025-07-15 16:17:59,265 [Automobiles] INFO: Страница 66: найдено 100 лотов
+2025-07-15 16:17:59,370 [Automobiles] INFO: Сохранено 6600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:02,733 [Automobiles] INFO: Запрос страницы 67/1891
+2025-07-15 16:18:03,885 [Automobiles] INFO: Страница 67: найдено 100 лотов
+2025-07-15 16:18:04,004 [Automobiles] INFO: Сохранено 6700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:08,094 [Automobiles] INFO: Запрос страницы 68/1891
+2025-07-15 16:18:09,443 [Automobiles] INFO: Страница 68: найдено 100 лотов
+2025-07-15 16:18:09,555 [Automobiles] INFO: Сохранено 6800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:13,695 [Automobiles] INFO: Запрос страницы 69/1891
+2025-07-15 16:18:14,713 [Automobiles] INFO: Страница 69: найдено 100 лотов
+2025-07-15 16:18:14,825 [Automobiles] INFO: Сохранено 6900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:18,688 [Automobiles] INFO: Запрос страницы 70/1891
+2025-07-15 16:18:19,946 [Automobiles] INFO: Страница 70: найдено 100 лотов
+2025-07-15 16:18:20,051 [Automobiles] INFO: Сохранено 7000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:22,191 [Automobiles] INFO: Запрос страницы 71/1891
+2025-07-15 16:18:23,222 [Automobiles] INFO: Страница 71: найдено 100 лотов
+2025-07-15 16:18:23,344 [Automobiles] INFO: Сохранено 7100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:26,402 [Automobiles] INFO: Запрос страницы 72/1891
+2025-07-15 16:18:27,393 [Automobiles] INFO: Страница 72: найдено 100 лотов
+2025-07-15 16:18:27,501 [Automobiles] INFO: Сохранено 7200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:31,465 [Automobiles] INFO: Запрос страницы 73/1891
+2025-07-15 16:18:32,701 [Automobiles] INFO: Страница 73: найдено 100 лотов
+2025-07-15 16:18:32,811 [Automobiles] INFO: Сохранено 7300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:36,868 [Automobiles] INFO: Запрос страницы 74/1891
+2025-07-15 16:18:38,007 [Automobiles] INFO: Страница 74: найдено 100 лотов
+2025-07-15 16:18:38,122 [Automobiles] INFO: Сохранено 7400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:42,068 [Automobiles] INFO: Запрос страницы 75/1891
+2025-07-15 16:18:43,118 [Automobiles] INFO: Страница 75: найдено 100 лотов
+2025-07-15 16:18:43,232 [Automobiles] INFO: Сохранено 7500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:46,677 [Automobiles] INFO: Запрос страницы 76/1891
+2025-07-15 16:18:51,162 [Automobiles] INFO: Страница 76: найдено 100 лотов
+2025-07-15 16:18:51,285 [Automobiles] INFO: Сохранено 7600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:55,743 [Automobiles] INFO: Запрос страницы 77/1891
+2025-07-15 16:18:56,994 [Automobiles] INFO: Страница 77: найдено 100 лотов
+2025-07-15 16:18:57,110 [Automobiles] INFO: Сохранено 7700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:18:59,799 [Automobiles] INFO: Запрос страницы 78/1891
+2025-07-15 16:19:01,065 [Automobiles] INFO: Страница 78: найдено 100 лотов
+2025-07-15 16:19:01,196 [Automobiles] INFO: Сохранено 7800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:05,891 [Automobiles] INFO: Запрос страницы 79/1891
+2025-07-15 16:19:08,241 [Automobiles] INFO: Страница 79: найдено 100 лотов
+2025-07-15 16:19:08,365 [Automobiles] INFO: Сохранено 7900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:12,506 [Automobiles] INFO: Запрос страницы 80/1891
+2025-07-15 16:19:13,809 [Automobiles] INFO: Страница 80: найдено 100 лотов
+2025-07-15 16:19:13,924 [Automobiles] INFO: Сохранено 8000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:16,998 [Automobiles] INFO: Запрос страницы 81/1891
+2025-07-15 16:19:18,302 [Automobiles] INFO: Страница 81: найдено 100 лотов
+2025-07-15 16:19:18,425 [Automobiles] INFO: Сохранено 8100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:23,117 [Automobiles] INFO: Запрос страницы 82/1891
+2025-07-15 16:19:25,565 [Automobiles] INFO: Страница 82: найдено 100 лотов
+2025-07-15 16:19:25,692 [Automobiles] INFO: Сохранено 8200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:28,766 [Automobiles] INFO: Запрос страницы 83/1891
+2025-07-15 16:19:30,123 [Automobiles] INFO: Страница 83: найдено 100 лотов
+2025-07-15 16:19:30,240 [Automobiles] INFO: Сохранено 8300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:32,616 [Automobiles] INFO: Запрос страницы 84/1891
+2025-07-15 16:19:34,142 [Automobiles] INFO: Страница 84: найдено 100 лотов
+2025-07-15 16:19:34,260 [Automobiles] INFO: Сохранено 8400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:38,862 [Automobiles] INFO: Запрос страницы 85/1891
+2025-07-15 16:19:41,318 [Automobiles] INFO: Страница 85: найдено 100 лотов
+2025-07-15 16:19:41,439 [Automobiles] INFO: Сохранено 8500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:46,434 [Automobiles] INFO: Запрос страницы 86/1891
+2025-07-15 16:19:49,191 [Automobiles] INFO: Страница 86: найдено 100 лотов
+2025-07-15 16:19:49,321 [Automobiles] INFO: Сохранено 8600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:51,590 [Automobiles] INFO: Запрос страницы 87/1891
+2025-07-15 16:19:52,729 [Automobiles] INFO: Страница 87: найдено 100 лотов
+2025-07-15 16:19:52,872 [Automobiles] INFO: Сохранено 8700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:19:56,677 [Automobiles] INFO: Запрос страницы 88/1891
+2025-07-15 16:19:57,899 [Automobiles] INFO: Страница 88: найдено 100 лотов
+2025-07-15 16:19:58,022 [Automobiles] INFO: Сохранено 8800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:01,642 [Automobiles] INFO: Запрос страницы 89/1891
+2025-07-15 16:20:02,775 [Automobiles] INFO: Страница 89: найдено 100 лотов
+2025-07-15 16:20:02,902 [Automobiles] INFO: Сохранено 8900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:06,734 [Automobiles] INFO: Запрос страницы 90/1891
+2025-07-15 16:20:07,875 [Automobiles] INFO: Страница 90: найдено 100 лотов
+2025-07-15 16:20:08,014 [Automobiles] INFO: Сохранено 9000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:10,349 [Automobiles] INFO: Запрос страницы 91/1891
+2025-07-15 16:20:11,597 [Automobiles] INFO: Страница 91: найдено 100 лотов
+2025-07-15 16:20:11,731 [Automobiles] INFO: Сохранено 9100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:15,985 [Automobiles] INFO: Запрос страницы 92/1891
+2025-07-15 16:20:17,318 [Automobiles] INFO: Страница 92: найдено 100 лотов
+2025-07-15 16:20:17,453 [Automobiles] INFO: Сохранено 9200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:20,750 [Automobiles] INFO: Запрос страницы 93/1891
+2025-07-15 16:20:21,947 [Automobiles] INFO: Страница 93: найдено 100 лотов
+2025-07-15 16:20:22,083 [Automobiles] INFO: Сохранено 9300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:24,138 [Automobiles] INFO: Запрос страницы 94/1891
+2025-07-15 16:20:27,192 [Automobiles] INFO: Страница 94: найдено 100 лотов
+2025-07-15 16:20:27,335 [Automobiles] INFO: Сохранено 9400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:31,479 [Automobiles] INFO: Запрос страницы 95/1891
+2025-07-15 16:20:32,560 [Automobiles] INFO: Страница 95: найдено 100 лотов
+2025-07-15 16:20:32,694 [Automobiles] INFO: Сохранено 9500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:37,571 [Automobiles] INFO: Запрос страницы 96/1891
+2025-07-15 16:20:40,590 [Automobiles] INFO: Страница 96: найдено 100 лотов
+2025-07-15 16:20:40,752 [Automobiles] INFO: Сохранено 9600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:43,045 [Automobiles] INFO: Запрос страницы 97/1891
+2025-07-15 16:20:44,257 [Automobiles] INFO: Страница 97: найдено 100 лотов
+2025-07-15 16:20:44,394 [Automobiles] INFO: Сохранено 9700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:47,635 [Automobiles] INFO: Запрос страницы 98/1891
+2025-07-15 16:20:48,944 [Automobiles] INFO: Страница 98: найдено 100 лотов
+2025-07-15 16:20:49,084 [Automobiles] INFO: Сохранено 9800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:20:53,925 [Automobiles] INFO: Запрос страницы 99/1891
+2025-07-15 16:20:56,232 [Automobiles] INFO: Страница 99: найдено 100 лотов
+2025-07-15 16:20:56,382 [Automobiles] INFO: Сохранено 9900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:00,355 [Automobiles] INFO: Запрос страницы 100/1891
+2025-07-15 16:21:04,308 [Automobiles] INFO: Страница 100: найдено 100 лотов
+2025-07-15 16:21:04,460 [Automobiles] INFO: Сохранено 10000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:07,457 [Automobiles] INFO: Запрос страницы 101/1891
+2025-07-15 16:21:08,731 [Automobiles] INFO: Страница 101: найдено 100 лотов
+2025-07-15 16:21:08,880 [Automobiles] INFO: Сохранено 10100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:13,027 [Automobiles] INFO: Запрос страницы 102/1891
+2025-07-15 16:21:14,306 [Automobiles] INFO: Страница 102: найдено 100 лотов
+2025-07-15 16:21:14,457 [Automobiles] INFO: Сохранено 10200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:17,105 [Automobiles] INFO: Запрос страницы 103/1891
+2025-07-15 16:21:18,244 [Automobiles] INFO: Страница 103: найдено 100 лотов
+2025-07-15 16:21:18,400 [Automobiles] INFO: Сохранено 10300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:21,271 [Automobiles] INFO: Запрос страницы 104/1891
+2025-07-15 16:21:22,423 [Automobiles] INFO: Страница 104: найдено 100 лотов
+2025-07-15 16:21:22,580 [Automobiles] INFO: Сохранено 10400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:26,738 [Automobiles] INFO: Запрос страницы 105/1891
+2025-07-15 16:21:28,029 [Automobiles] INFO: Страница 105: найдено 100 лотов
+2025-07-15 16:21:28,204 [Automobiles] INFO: Сохранено 10500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:30,680 [Automobiles] INFO: Запрос страницы 106/1891
+2025-07-15 16:21:31,757 [Automobiles] INFO: Страница 106: найдено 100 лотов
+2025-07-15 16:21:31,909 [Automobiles] INFO: Сохранено 10600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:36,019 [Automobiles] INFO: Запрос страницы 107/1891
+2025-07-15 16:21:37,084 [Automobiles] INFO: Страница 107: найдено 100 лотов
+2025-07-15 16:21:37,238 [Automobiles] INFO: Сохранено 10700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:41,625 [Automobiles] INFO: Запрос страницы 108/1891
+2025-07-15 16:21:42,932 [Automobiles] INFO: Страница 108: найдено 100 лотов
+2025-07-15 16:21:43,095 [Automobiles] INFO: Сохранено 10800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:46,278 [Automobiles] INFO: Запрос страницы 109/1891
+2025-07-15 16:21:47,526 [Automobiles] INFO: Страница 109: найдено 100 лотов
+2025-07-15 16:21:47,691 [Automobiles] INFO: Сохранено 10900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:50,934 [Automobiles] INFO: Запрос страницы 110/1891
+2025-07-15 16:21:52,083 [Automobiles] INFO: Страница 110: найдено 100 лотов
+2025-07-15 16:21:52,252 [Automobiles] INFO: Сохранено 11000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:21:56,777 [Automobiles] INFO: Запрос страницы 111/1891
+2025-07-15 16:21:59,547 [Automobiles] INFO: Страница 111: найдено 100 лотов
+2025-07-15 16:21:59,707 [Automobiles] INFO: Сохранено 11100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:02,172 [Automobiles] INFO: Запрос страницы 112/1891
+2025-07-15 16:22:03,848 [Automobiles] INFO: Страница 112: найдено 100 лотов
+2025-07-15 16:22:04,015 [Automobiles] INFO: Сохранено 11200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:06,595 [Automobiles] INFO: Запрос страницы 113/1891
+2025-07-15 16:22:08,057 [Automobiles] INFO: Страница 113: найдено 100 лотов
+2025-07-15 16:22:08,218 [Automobiles] INFO: Сохранено 11300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:12,557 [Automobiles] INFO: Запрос страницы 114/1891
+2025-07-15 16:22:14,197 [Automobiles] INFO: Страница 114: найдено 100 лотов
+2025-07-15 16:22:14,361 [Automobiles] INFO: Сохранено 11400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:17,208 [Automobiles] INFO: Запрос страницы 115/1891
+2025-07-15 16:22:18,755 [Automobiles] INFO: Страница 115: найдено 100 лотов
+2025-07-15 16:22:18,924 [Automobiles] INFO: Сохранено 11500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:22,773 [Automobiles] INFO: Запрос страницы 116/1891
+2025-07-15 16:22:24,272 [Automobiles] INFO: Страница 116: найдено 100 лотов
+2025-07-15 16:22:24,439 [Automobiles] INFO: Сохранено 11600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:26,940 [Automobiles] INFO: Запрос страницы 117/1891
+2025-07-15 16:22:28,440 [Automobiles] INFO: Страница 117: найдено 100 лотов
+2025-07-15 16:22:28,612 [Automobiles] INFO: Сохранено 11700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:32,576 [Automobiles] INFO: Запрос страницы 118/1891
+2025-07-15 16:22:34,080 [Automobiles] INFO: Страница 118: найдено 100 лотов
+2025-07-15 16:22:34,248 [Automobiles] INFO: Сохранено 11800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:38,574 [Automobiles] INFO: Запрос страницы 119/1891
+2025-07-15 16:22:40,370 [Automobiles] INFO: Страница 119: найдено 100 лотов
+2025-07-15 16:22:40,535 [Automobiles] INFO: Сохранено 11900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:44,970 [Automobiles] INFO: Запрос страницы 120/1891
+2025-07-15 16:22:46,570 [Automobiles] INFO: Страница 120: найдено 100 лотов
+2025-07-15 16:22:46,743 [Automobiles] INFO: Сохранено 12000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:50,239 [Automobiles] INFO: Запрос страницы 121/1891
+2025-07-15 16:22:51,726 [Automobiles] INFO: Страница 121: найдено 100 лотов
+2025-07-15 16:22:51,895 [Automobiles] INFO: Сохранено 12100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:22:56,099 [Automobiles] INFO: Запрос страницы 122/1891
+2025-07-15 16:22:57,356 [Automobiles] INFO: Страница 122: найдено 100 лотов
+2025-07-15 16:22:57,528 [Automobiles] INFO: Сохранено 12200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:00,044 [Automobiles] INFO: Запрос страницы 123/1891
+2025-07-15 16:23:01,474 [Automobiles] INFO: Страница 123: найдено 100 лотов
+2025-07-15 16:23:01,648 [Automobiles] INFO: Сохранено 12300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:04,349 [Automobiles] INFO: Запрос страницы 124/1891
+2025-07-15 16:23:05,958 [Automobiles] INFO: Страница 124: найдено 100 лотов
+2025-07-15 16:23:06,133 [Automobiles] INFO: Сохранено 12400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:09,671 [Automobiles] INFO: Запрос страницы 125/1891
+2025-07-15 16:23:11,145 [Automobiles] INFO: Страница 125: найдено 100 лотов
+2025-07-15 16:23:11,321 [Automobiles] INFO: Сохранено 12500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:15,900 [Automobiles] INFO: Запрос страницы 126/1891
+2025-07-15 16:23:18,799 [Automobiles] INFO: Страница 126: найдено 100 лотов
+2025-07-15 16:23:18,975 [Automobiles] INFO: Сохранено 12600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:21,965 [Automobiles] INFO: Запрос страницы 127/1891
+2025-07-15 16:23:24,036 [Automobiles] INFO: Страница 127: найдено 100 лотов
+2025-07-15 16:23:24,221 [Automobiles] INFO: Сохранено 12700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:26,264 [Automobiles] INFO: Запрос страницы 128/1891
+2025-07-15 16:23:27,871 [Automobiles] INFO: Страница 128: найдено 100 лотов
+2025-07-15 16:23:28,051 [Automobiles] INFO: Сохранено 12800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:31,116 [Automobiles] INFO: Запрос страницы 129/1891
+2025-07-15 16:23:33,356 [Automobiles] INFO: Страница 129: найдено 100 лотов
+2025-07-15 16:23:33,537 [Automobiles] INFO: Сохранено 12900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:37,302 [Automobiles] INFO: Запрос страницы 130/1891
+2025-07-15 16:23:39,825 [Automobiles] INFO: Страница 130: найдено 100 лотов
+2025-07-15 16:23:40,016 [Automobiles] INFO: Сохранено 13000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:43,372 [Automobiles] INFO: Запрос страницы 131/1891
+2025-07-15 16:23:44,829 [Automobiles] INFO: Страница 131: найдено 100 лотов
+2025-07-15 16:23:45,016 [Automobiles] INFO: Сохранено 13100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:49,709 [Automobiles] INFO: Запрос страницы 132/1891
+2025-07-15 16:23:52,228 [Automobiles] INFO: Страница 132: найдено 100 лотов
+2025-07-15 16:23:52,440 [Automobiles] INFO: Сохранено 13200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:23:55,274 [Automobiles] INFO: Запрос страницы 133/1891
+2025-07-15 16:23:56,762 [Automobiles] INFO: Страница 133: найдено 100 лотов
+2025-07-15 16:23:56,948 [Automobiles] INFO: Сохранено 13300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:00,007 [Automobiles] INFO: Запрос страницы 134/1891
+2025-07-15 16:24:01,425 [Automobiles] INFO: Страница 134: найдено 100 лотов
+2025-07-15 16:24:01,611 [Automobiles] INFO: Сохранено 13400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:06,064 [Automobiles] INFO: Запрос страницы 135/1891
+2025-07-15 16:24:07,776 [Automobiles] INFO: Страница 135: найдено 100 лотов
+2025-07-15 16:24:07,972 [Automobiles] INFO: Сохранено 13500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:11,751 [Automobiles] INFO: Запрос страницы 136/1891
+2025-07-15 16:24:14,126 [Automobiles] INFO: Страница 136: найдено 100 лотов
+2025-07-15 16:24:14,321 [Automobiles] INFO: Сохранено 13600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:16,472 [Automobiles] INFO: Запрос страницы 137/1891
+2025-07-15 16:24:17,993 [Automobiles] INFO: Страница 137: найдено 100 лотов
+2025-07-15 16:24:18,186 [Automobiles] INFO: Сохранено 13700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:21,461 [Automobiles] INFO: Запрос страницы 138/1891
+2025-07-15 16:24:23,411 [Automobiles] INFO: Страница 138: найдено 100 лотов
+2025-07-15 16:24:23,691 [Automobiles] INFO: Сохранено 13800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:25,817 [Automobiles] INFO: Запрос страницы 139/1891
+2025-07-15 16:24:27,369 [Automobiles] INFO: Страница 139: найдено 100 лотов
+2025-07-15 16:24:27,570 [Automobiles] INFO: Сохранено 13900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:29,645 [Automobiles] INFO: Запрос страницы 140/1891
+2025-07-15 16:24:40,906 [Automobiles] INFO: Страница 140: найдено 0 лотов
+2025-07-15 16:24:40,907 [Automobiles] INFO: Страница 140 пуста (empty_count=1)
+2025-07-15 16:24:40,908 [Automobiles] INFO: Запрос страницы 141/1891
+2025-07-15 16:24:43,853 [Automobiles] INFO: Страница 141: найдено 100 лотов
+2025-07-15 16:24:44,055 [Automobiles] INFO: Сохранено 14000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:48,833 [Automobiles] INFO: Запрос страницы 142/1891
+2025-07-15 16:24:52,297 [Automobiles] INFO: Страница 142: найдено 100 лотов
+2025-07-15 16:24:52,505 [Automobiles] INFO: Сохранено 14100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:54,794 [Automobiles] INFO: Запрос страницы 143/1891
+2025-07-15 16:24:56,426 [Automobiles] INFO: Страница 143: найдено 100 лотов
+2025-07-15 16:24:56,675 [Automobiles] INFO: Сохранено 14200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:24:58,856 [Automobiles] INFO: Запрос страницы 144/1891
+2025-07-15 16:25:00,443 [Automobiles] INFO: Страница 144: найдено 100 лотов
+2025-07-15 16:25:00,644 [Automobiles] INFO: Сохранено 14300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:05,567 [Automobiles] INFO: Запрос страницы 145/1891
+2025-07-15 16:25:08,170 [Automobiles] INFO: Страница 145: найдено 100 лотов
+2025-07-15 16:25:08,383 [Automobiles] INFO: Сохранено 14400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:11,175 [Automobiles] INFO: Запрос страницы 146/1891
+2025-07-15 16:25:13,459 [Automobiles] INFO: Страница 146: найдено 100 лотов
+2025-07-15 16:25:13,668 [Automobiles] INFO: Сохранено 14500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:17,800 [Automobiles] INFO: Запрос страницы 147/1891
+2025-07-15 16:25:19,940 [Automobiles] INFO: Страница 147: найдено 100 лотов
+2025-07-15 16:25:20,154 [Automobiles] INFO: Сохранено 14600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:23,115 [Automobiles] INFO: Запрос страницы 148/1891
+2025-07-15 16:25:25,181 [Automobiles] INFO: Страница 148: найдено 100 лотов
+2025-07-15 16:25:25,390 [Automobiles] INFO: Сохранено 14700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:30,259 [Automobiles] INFO: Запрос страницы 149/1891
+2025-07-15 16:25:34,395 [Automobiles] INFO: Страница 149: найдено 100 лотов
+2025-07-15 16:25:34,625 [Automobiles] INFO: Сохранено 14800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:38,211 [Automobiles] INFO: Запрос страницы 150/1891
+2025-07-15 16:25:39,838 [Automobiles] INFO: Страница 150: найдено 100 лотов
+2025-07-15 16:25:40,052 [Automobiles] INFO: Сохранено 14900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:42,867 [Automobiles] INFO: Запрос страницы 151/1891
+2025-07-15 16:25:44,537 [Automobiles] INFO: Страница 151: найдено 100 лотов
+2025-07-15 16:25:44,751 [Automobiles] INFO: Сохранено 15000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:46,842 [Automobiles] INFO: Запрос страницы 152/1891
+2025-07-15 16:25:48,593 [Automobiles] INFO: Страница 152: найдено 100 лотов
+2025-07-15 16:25:48,803 [Automobiles] INFO: Сохранено 15100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:51,879 [Automobiles] INFO: Запрос страницы 153/1891
+2025-07-15 16:25:53,570 [Automobiles] INFO: Страница 153: найдено 100 лотов
+2025-07-15 16:25:53,781 [Automobiles] INFO: Сохранено 15200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:25:57,240 [Automobiles] INFO: Запрос страницы 154/1891
+2025-07-15 16:25:58,890 [Automobiles] INFO: Страница 154: найдено 100 лотов
+2025-07-15 16:25:59,108 [Automobiles] INFO: Сохранено 15300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:01,233 [Automobiles] INFO: Запрос страницы 155/1891
+2025-07-15 16:26:02,846 [Automobiles] INFO: Страница 155: найдено 100 лотов
+2025-07-15 16:26:03,069 [Automobiles] INFO: Сохранено 15400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:05,899 [Automobiles] INFO: Запрос страницы 156/1891
+2025-07-15 16:26:08,718 [Automobiles] INFO: Страница 156: найдено 100 лотов
+2025-07-15 16:26:08,938 [Automobiles] INFO: Сохранено 15500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:12,778 [Automobiles] INFO: Запрос страницы 157/1891
+2025-07-15 16:26:15,765 [Automobiles] INFO: Страница 157: найдено 100 лотов
+2025-07-15 16:26:15,987 [Automobiles] INFO: Сохранено 15600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:18,295 [Automobiles] INFO: Запрос страницы 158/1891
+2025-07-15 16:26:20,485 [Automobiles] INFO: Страница 158: найдено 100 лотов
+2025-07-15 16:26:20,725 [Automobiles] INFO: Сохранено 15700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:25,318 [Automobiles] INFO: Запрос страницы 159/1891
+2025-07-15 16:26:28,680 [Automobiles] INFO: Страница 159: найдено 100 лотов
+2025-07-15 16:26:28,907 [Automobiles] INFO: Сохранено 15800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:32,834 [Automobiles] INFO: Запрос страницы 160/1891
+2025-07-15 16:26:39,538 [Automobiles] INFO: Страница 160: найдено 100 лотов
+2025-07-15 16:26:39,772 [Automobiles] INFO: Сохранено 15900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:41,800 [Automobiles] INFO: Запрос страницы 161/1891
+2025-07-15 16:26:44,727 [Automobiles] INFO: Страница 161: найдено 100 лотов
+2025-07-15 16:26:44,952 [Automobiles] INFO: Сохранено 16000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:48,892 [Automobiles] INFO: Запрос страницы 162/1891
+2025-07-15 16:26:51,507 [Automobiles] INFO: Страница 162: найдено 100 лотов
+2025-07-15 16:26:51,731 [Automobiles] INFO: Сохранено 16100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:53,962 [Automobiles] INFO: Запрос страницы 163/1891
+2025-07-15 16:26:55,885 [Automobiles] INFO: Страница 163: найдено 100 лотов
+2025-07-15 16:26:56,115 [Automobiles] INFO: Сохранено 16200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:26:59,927 [Automobiles] INFO: Запрос страницы 164/1891
+2025-07-15 16:27:02,165 [Automobiles] INFO: Страница 164: найдено 100 лотов
+2025-07-15 16:27:02,400 [Automobiles] INFO: Сохранено 16300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:27:05,974 [Automobiles] INFO: Запрос страницы 165/1891
+2025-07-15 16:28:05,980 [Automobiles] ERROR: Сбой на странице 1: The read operation timed out
+Traceback (most recent call last):
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 155, in __exit__
+    self.gen.throw(value)
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nikitaorekhva/PycharmProjects/Server/parser/runner.py", line 148, in run_section_with_restart
+    process_section(keyword, proxy_port, output_dir, start_page, page_size, logger)
+  File "/Users/nikitaorekhva/PycharmProjects/Server/parser/runner.py", line 73, in process_section
+    html = fetcher.fetch_page(client, page)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/parser/fetcher.py", line 190, in fetch_page
+    resp = client.post(url, json=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1144, in post
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 155, in __exit__
+    self.gen.throw(value)
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+2025-07-15 16:28:06,103 [Automobiles] INFO: Попытка 1/5. Рестарт с 164 через 5 сек
+2025-07-15 16:29:21,412 [Automobiles] INFO: Динамическое число страниц: 1891
+2025-07-15 16:29:21,500 [Automobiles] INFO: Запрос страницы 164/1891
+2025-07-15 16:29:24,110 [Automobiles] INFO: Страница 164: найдено 100 лотов
+2025-07-15 16:29:24,340 [Automobiles] INFO: Сохранено 16400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:29:27,519 [Automobiles] INFO: Запрос страницы 165/1891
+2025-07-15 16:29:29,330 [Automobiles] INFO: Страница 165: найдено 100 лотов
+2025-07-15 16:29:29,563 [Automobiles] INFO: Сохранено 16500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:29:32,350 [Automobiles] INFO: Запрос страницы 166/1891
+2025-07-15 16:29:33,717 [Automobiles] INFO: Страница 166: найдено 100 лотов
+2025-07-15 16:29:33,948 [Automobiles] INFO: Сохранено 16600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:29:37,908 [Automobiles] INFO: Запрос страницы 167/1891
+2025-07-15 16:29:39,495 [Automobiles] INFO: Страница 167: найдено 100 лотов
+2025-07-15 16:29:39,726 [Automobiles] INFO: Сохранено 16700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:29:44,199 [Automobiles] INFO: Запрос страницы 168/1891
+2025-07-15 16:29:46,490 [Automobiles] INFO: Страница 168: найдено 100 лотов
+2025-07-15 16:29:46,717 [Automobiles] INFO: Сохранено 16800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:29:51,330 [Automobiles] INFO: Запрос страницы 169/1891
+2025-07-15 16:29:54,131 [Automobiles] INFO: Страница 169: найдено 100 лотов
+2025-07-15 16:29:54,363 [Automobiles] INFO: Сохранено 16900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:29:57,244 [Automobiles] INFO: Запрос страницы 170/1891
+2025-07-15 16:29:59,767 [Automobiles] INFO: Страница 170: найдено 100 лотов
+2025-07-15 16:30:00,000 [Automobiles] INFO: Сохранено 17000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:03,166 [Automobiles] INFO: Запрос страницы 171/1891
+2025-07-15 16:30:05,601 [Automobiles] INFO: Страница 171: найдено 100 лотов
+2025-07-15 16:30:05,835 [Automobiles] INFO: Сохранено 17100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:07,930 [Automobiles] INFO: Запрос страницы 172/1891
+2025-07-15 16:30:10,351 [Automobiles] INFO: Страница 172: найдено 100 лотов
+2025-07-15 16:30:10,587 [Automobiles] INFO: Сохранено 17200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:13,071 [Automobiles] INFO: Запрос страницы 173/1891
+2025-07-15 16:30:14,775 [Automobiles] INFO: Страница 173: найдено 100 лотов
+2025-07-15 16:30:15,017 [Automobiles] INFO: Сохранено 17300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:18,357 [Automobiles] INFO: Запрос страницы 174/1891
+2025-07-15 16:30:20,389 [Automobiles] INFO: Страница 174: найдено 100 лотов
+2025-07-15 16:30:20,629 [Automobiles] INFO: Сохранено 17400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:23,305 [Automobiles] INFO: Запрос страницы 175/1891
+2025-07-15 16:30:27,224 [Automobiles] INFO: Страница 175: найдено 100 лотов
+2025-07-15 16:30:27,474 [Automobiles] INFO: Сохранено 17500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:32,452 [Automobiles] INFO: Запрос страницы 176/1891
+2025-07-15 16:30:35,817 [Automobiles] INFO: Страница 176: найдено 100 лотов
+2025-07-15 16:30:36,061 [Automobiles] INFO: Сохранено 17600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:40,321 [Automobiles] INFO: Запрос страницы 177/1891
+2025-07-15 16:30:42,096 [Automobiles] INFO: Страница 177: найдено 100 лотов
+2025-07-15 16:30:42,336 [Automobiles] INFO: Сохранено 17700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:44,833 [Automobiles] INFO: Запрос страницы 178/1891
+2025-07-15 16:30:46,555 [Automobiles] INFO: Страница 178: найдено 100 лотов
+2025-07-15 16:30:46,801 [Automobiles] INFO: Сохранено 17800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:51,664 [Automobiles] INFO: Запрос страницы 179/1891
+2025-07-15 16:30:54,254 [Automobiles] INFO: Страница 179: найдено 100 лотов
+2025-07-15 16:30:54,497 [Automobiles] INFO: Сохранено 17900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:30:57,355 [Automobiles] INFO: Запрос страницы 180/1891
+2025-07-15 16:30:58,923 [Automobiles] INFO: Страница 180: найдено 100 лотов
+2025-07-15 16:30:59,168 [Automobiles] INFO: Сохранено 18000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:31:02,749 [Automobiles] INFO: Запрос страницы 181/1891
+2025-07-15 16:31:04,394 [Automobiles] INFO: Страница 181: найдено 100 лотов
+2025-07-15 16:31:04,651 [Automobiles] INFO: Сохранено 18100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:31:08,700 [Automobiles] INFO: Запрос страницы 182/1891
+2025-07-15 16:31:29,464 [Automobiles] ERROR: Сбой на странице 164: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2559)
+Traceback (most recent call last):
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 155, in __exit__
+    self.gen.throw(value)
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2559)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nikitaorekhva/PycharmProjects/Server/parser/runner.py", line 148, in run_section_with_restart
+    process_section(keyword, proxy_port, output_dir, start_page, page_size, logger)
+  File "/Users/nikitaorekhva/PycharmProjects/Server/parser/runner.py", line 73, in process_section
+    html = fetcher.fetch_page(client, page)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/parser/fetcher.py", line 190, in fetch_page
+    resp = client.post(url, json=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1144, in post
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py", line 155, in __exit__
+    self.gen.throw(value)
+  File "/Users/nikitaorekhva/PycharmProjects/Server/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2559)
+2025-07-15 16:31:29,587 [Automobiles] INFO: Попытка 2/5. Рестарт с 182 через 5 сек
+2025-07-15 16:32:08,782 [Automobiles] INFO: Динамическое число страниц: 1891
+2025-07-15 16:32:08,867 [Automobiles] INFO: Запрос страницы 182/1891
+2025-07-15 16:32:11,244 [Automobiles] INFO: Страница 182: найдено 100 лотов
+2025-07-15 16:32:11,516 [Automobiles] INFO: Сохранено 18200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:14,160 [Automobiles] INFO: Запрос страницы 183/1891
+2025-07-15 16:32:15,830 [Automobiles] INFO: Страница 183: найдено 100 лотов
+2025-07-15 16:32:16,080 [Automobiles] INFO: Сохранено 18300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:19,519 [Automobiles] INFO: Запрос страницы 184/1891
+2025-07-15 16:32:20,657 [Automobiles] INFO: Страница 184: найдено 100 лотов
+2025-07-15 16:32:20,912 [Automobiles] INFO: Сохранено 18400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:23,727 [Automobiles] INFO: Запрос страницы 185/1891
+2025-07-15 16:32:24,931 [Automobiles] INFO: Страница 185: найдено 100 лотов
+2025-07-15 16:32:25,194 [Automobiles] INFO: Сохранено 18500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:29,649 [Automobiles] INFO: Запрос страницы 186/1891
+2025-07-15 16:32:32,029 [Automobiles] INFO: Страница 186: найдено 100 лотов
+2025-07-15 16:32:32,288 [Automobiles] INFO: Сохранено 18600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:34,941 [Automobiles] INFO: Запрос страницы 187/1891
+2025-07-15 16:32:36,183 [Automobiles] INFO: Страница 187: найдено 100 лотов
+2025-07-15 16:32:36,444 [Automobiles] INFO: Сохранено 18700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:41,193 [Automobiles] INFO: Запрос страницы 188/1891
+2025-07-15 16:32:43,687 [Automobiles] INFO: Страница 188: найдено 100 лотов
+2025-07-15 16:32:43,963 [Automobiles] INFO: Сохранено 18800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:46,567 [Automobiles] INFO: Запрос страницы 189/1891
+2025-07-15 16:32:47,780 [Automobiles] INFO: Страница 189: найдено 100 лотов
+2025-07-15 16:32:48,043 [Automobiles] INFO: Сохранено 18900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:52,875 [Automobiles] INFO: Запрос страницы 190/1891
+2025-07-15 16:32:55,505 [Automobiles] INFO: Страница 190: найдено 100 лотов
+2025-07-15 16:32:55,775 [Automobiles] INFO: Сохранено 19000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:32:58,593 [Automobiles] INFO: Запрос страницы 191/1891
+2025-07-15 16:32:59,796 [Automobiles] INFO: Страница 191: найдено 100 лотов
+2025-07-15 16:33:00,060 [Automobiles] INFO: Сохранено 19100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:02,593 [Automobiles] INFO: Запрос страницы 192/1891
+2025-07-15 16:33:03,816 [Automobiles] INFO: Страница 192: найдено 100 лотов
+2025-07-15 16:33:04,083 [Automobiles] INFO: Сохранено 19200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:07,679 [Automobiles] INFO: Запрос страницы 193/1891
+2025-07-15 16:33:08,772 [Automobiles] INFO: Страница 193: найдено 100 лотов
+2025-07-15 16:33:09,039 [Automobiles] INFO: Сохранено 19300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:11,568 [Automobiles] INFO: Запрос страницы 194/1891
+2025-07-15 16:33:12,747 [Automobiles] INFO: Страница 194: найдено 100 лотов
+2025-07-15 16:33:13,023 [Automobiles] INFO: Сохранено 19400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:16,544 [Automobiles] INFO: Запрос страницы 195/1891
+2025-07-15 16:33:17,727 [Automobiles] INFO: Страница 195: найдено 100 лотов
+2025-07-15 16:33:18,000 [Automobiles] INFO: Сохранено 19500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:20,724 [Automobiles] INFO: Запрос страницы 196/1891
+2025-07-15 16:33:21,849 [Automobiles] INFO: Страница 196: найдено 100 лотов
+2025-07-15 16:33:22,123 [Automobiles] INFO: Сохранено 19600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:26,443 [Automobiles] INFO: Запрос страницы 197/1891
+2025-07-15 16:33:27,623 [Automobiles] INFO: Страница 197: найдено 100 лотов
+2025-07-15 16:33:27,903 [Automobiles] INFO: Сохранено 19700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:32,234 [Automobiles] INFO: Запрос страницы 198/1891
+2025-07-15 16:33:33,415 [Automobiles] INFO: Страница 198: найдено 100 лотов
+2025-07-15 16:33:33,681 [Automobiles] INFO: Сохранено 19800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:37,360 [Automobiles] INFO: Запрос страницы 199/1891
+2025-07-15 16:33:38,783 [Automobiles] INFO: Страница 199: найдено 100 лотов
+2025-07-15 16:33:39,060 [Automobiles] INFO: Сохранено 19900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:42,731 [Automobiles] INFO: Запрос страницы 200/1891
+2025-07-15 16:33:43,920 [Automobiles] INFO: Страница 200: найдено 100 лотов
+2025-07-15 16:33:44,194 [Automobiles] INFO: Сохранено 20000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:48,927 [Automobiles] INFO: Запрос страницы 201/1891
+2025-07-15 16:33:51,256 [Automobiles] INFO: Страница 201: найдено 100 лотов
+2025-07-15 16:33:51,535 [Automobiles] INFO: Сохранено 20100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:33:55,976 [Automobiles] INFO: Запрос страницы 202/1891
+2025-07-15 16:33:58,217 [Automobiles] INFO: Страница 202: найдено 100 лотов
+2025-07-15 16:33:58,493 [Automobiles] INFO: Сохранено 20200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:03,284 [Automobiles] INFO: Запрос страницы 203/1891
+2025-07-15 16:34:05,562 [Automobiles] INFO: Страница 203: найдено 100 лотов
+2025-07-15 16:34:05,842 [Automobiles] INFO: Сохранено 20300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:09,036 [Automobiles] INFO: Запрос страницы 204/1891
+2025-07-15 16:34:10,145 [Automobiles] INFO: Страница 204: найдено 100 лотов
+2025-07-15 16:34:10,424 [Automobiles] INFO: Сохранено 20400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:14,466 [Automobiles] INFO: Запрос страницы 205/1891
+2025-07-15 16:34:15,571 [Automobiles] INFO: Страница 205: найдено 100 лотов
+2025-07-15 16:34:15,847 [Automobiles] INFO: Сохранено 20500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:20,029 [Automobiles] INFO: Запрос страницы 206/1891
+2025-07-15 16:34:21,068 [Automobiles] INFO: Страница 206: найдено 100 лотов
+2025-07-15 16:34:21,354 [Automobiles] INFO: Сохранено 20600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:25,601 [Automobiles] INFO: Запрос страницы 207/1891
+2025-07-15 16:34:26,940 [Automobiles] INFO: Страница 207: найдено 100 лотов
+2025-07-15 16:34:27,230 [Automobiles] INFO: Сохранено 20700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:31,008 [Automobiles] INFO: Запрос страницы 208/1891
+2025-07-15 16:34:32,431 [Automobiles] INFO: Страница 208: найдено 100 лотов
+2025-07-15 16:34:32,714 [Automobiles] INFO: Сохранено 20800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:36,353 [Automobiles] INFO: Запрос страницы 209/1891
+2025-07-15 16:34:37,561 [Automobiles] INFO: Страница 209: найдено 100 лотов
+2025-07-15 16:34:37,847 [Automobiles] INFO: Сохранено 20900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:41,599 [Automobiles] INFO: Запрос страницы 210/1891
+2025-07-15 16:34:42,764 [Automobiles] INFO: Страница 210: найдено 100 лотов
+2025-07-15 16:34:43,056 [Automobiles] INFO: Сохранено 21000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:45,789 [Automobiles] INFO: Запрос страницы 211/1891
+2025-07-15 16:34:46,823 [Automobiles] INFO: Страница 211: найдено 100 лотов
+2025-07-15 16:34:47,113 [Automobiles] INFO: Сохранено 21100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:50,088 [Automobiles] INFO: Запрос страницы 212/1891
+2025-07-15 16:34:51,206 [Automobiles] INFO: Страница 212: найдено 100 лотов
+2025-07-15 16:34:51,505 [Automobiles] INFO: Сохранено 21200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:34:55,794 [Automobiles] INFO: Запрос страницы 213/1891
+2025-07-15 16:34:56,881 [Automobiles] INFO: Страница 213: найдено 100 лотов
+2025-07-15 16:34:57,169 [Automobiles] INFO: Сохранено 21300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:01,309 [Automobiles] INFO: Запрос страницы 214/1891
+2025-07-15 16:35:02,468 [Automobiles] INFO: Страница 214: найдено 100 лотов
+2025-07-15 16:35:02,764 [Automobiles] INFO: Сохранено 21400 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:05,660 [Automobiles] INFO: Запрос страницы 215/1891
+2025-07-15 16:35:06,762 [Automobiles] INFO: Страница 215: найдено 100 лотов
+2025-07-15 16:35:07,056 [Automobiles] INFO: Сохранено 21500 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:09,984 [Automobiles] INFO: Запрос страницы 216/1891
+2025-07-15 16:35:11,128 [Automobiles] INFO: Страница 216: найдено 100 лотов
+2025-07-15 16:35:11,436 [Automobiles] INFO: Сохранено 21600 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:13,589 [Automobiles] INFO: Запрос страницы 217/1891
+2025-07-15 16:35:14,608 [Automobiles] INFO: Страница 217: найдено 100 лотов
+2025-07-15 16:35:14,903 [Automobiles] INFO: Сохранено 21700 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:19,071 [Automobiles] INFO: Запрос страницы 218/1891
+2025-07-15 16:35:20,180 [Automobiles] INFO: Страница 218: найдено 100 лотов
+2025-07-15 16:35:20,482 [Automobiles] INFO: Сохранено 21800 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:22,851 [Automobiles] INFO: Запрос страницы 219/1891
+2025-07-15 16:35:24,034 [Automobiles] INFO: Страница 219: найдено 100 лотов
+2025-07-15 16:35:24,340 [Automobiles] INFO: Сохранено 21900 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:28,297 [Automobiles] INFO: Запрос страницы 220/1891
+2025-07-15 16:35:29,385 [Automobiles] INFO: Страница 220: найдено 100 лотов
+2025-07-15 16:35:29,690 [Automobiles] INFO: Сохранено 22000 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:34,040 [Automobiles] INFO: Запрос страницы 221/1891
+2025-07-15 16:35:35,100 [Automobiles] INFO: Страница 221: найдено 55 лотов
+2025-07-15 16:35:35,409 [Automobiles] INFO: Сохранено 22055 лотов → JSONs/Automobiles_lots.json
+2025-07-15 16:35:40,296 [Automobiles] INFO: Запрос страницы 222/1891
+2025-07-15 16:35:41,995 [Automobiles] INFO: Страница 222: найдено 0 лотов
+2025-07-15 16:35:41,996 [Automobiles] INFO: Страница 222 пуста (empty_count=1)
+2025-07-15 16:35:41,996 [Automobiles] INFO: Запрос страницы 223/1891
+2025-07-15 16:35:42,762 [Automobiles] INFO: Страница 223: найдено 0 лотов
+2025-07-15 16:35:42,762 [Automobiles] INFO: Страница 223 пуста (empty_count=2)
+2025-07-15 16:35:42,762 [Automobiles] INFO: Запрос страницы 224/1891
+2025-07-15 16:35:43,480 [Automobiles] INFO: Страница 224: найдено 0 лотов
+2025-07-15 16:35:43,480 [Automobiles] INFO: Страница 224 пуста (empty_count=3)
+2025-07-15 16:35:43,480 [Automobiles] INFO: Три пустые страницы подряд — останавливаемся.
+2025-07-15 16:35:43,480 [Automobiles] INFO: 🎉 Все страницы обработаны или остановлено на пустых — остановлен на странице 224.
+2025-07-15 16:35:43,622 [Automobiles] INFO: Process Automobiles pid=26113 exited with code=0
+2025-07-15 18:50:33,215 [Automobiles] INFO: Started process pid=31876
+2025-07-15 18:50:33,216 [Automobiles] INFO: Waiting for browser init…
+2025-07-15 18:50:57,945 [Automobiles] INFO: Динамическое число страниц: 1891
+2025-07-15 18:50:58,058 [Automobiles] INFO: Запрос страницы 1/1891
+2025-07-15 18:51:00,242 [Automobiles] INFO: Страница 1: найдено 100 лотов
+2025-07-15 18:51:00,244 [Automobiles] INFO: Сохранено 100 лотов → JSONs/Automobiles_lots.json
+2025-07-15 18:51:03,761 [Automobiles] INFO: Запрос страницы 2/1891
+2025-07-15 18:51:04,818 [Automobiles] INFO: Страница 2: найдено 100 лотов
+2025-07-15 18:51:04,823 [Automobiles] INFO: Сохранено 200 лотов → JSONs/Automobiles_lots.json
+2025-07-15 18:51:08,150 [Automobiles] INFO: Запрос страницы 3/1891
+2025-07-15 18:51:09,182 [Automobiles] INFO: Страница 3: найдено 100 лотов
+2025-07-15 18:51:09,188 [Automobiles] INFO: Сохранено 300 лотов → JSONs/Automobiles_lots.json
+2025-07-15 18:51:12,240 [Automobiles] INFO: Запрос страницы 4/1891
+2025-07-15 18:51:13,241 [Automobiles] INFO: Страница 4: найдено 100 лотов
+2025-07-15 18:51:13,248 [Automobiles] INFO: Сохранено 400 лотов → JSONs/Automobiles_lots.json

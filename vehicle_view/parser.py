@@ -12,6 +12,9 @@ def parse_html(path: Path) -> dict:
     soup = BeautifulSoup(path.read_text("utf-8"), "html.parser")
     result = {}
 
+    title_tag = soup.select_one("div.vehicle-header .pd-header--left h1")
+    result["Title"] = title_tag.get_text(strip=True) if title_tag else None
+
     labels = [
         "Stock #", "Selling Branch", "VIN (Status)", "Loss", "Primary Damage",
         "Title/Sale Doc", "Start Code", "Key", "Odometer", "Airbags",

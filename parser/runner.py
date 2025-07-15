@@ -66,6 +66,8 @@ def process_section(
     else:
         all_items = []
 
+    empty_count = 0  # счётчик подряд пустых страниц
+
     for page in range(start_page, dyn_pages + 1):
         logger.info(f"Запрос страницы {page}/{dyn_pages}")
         html = fetcher.fetch_page(client, page)
@@ -77,18 +79,27 @@ def process_section(
         items = parse_items(html)
         logger.info(f"Страница {page}: найдено {len(items)} лотов")
 
+        # проверяем на три пустые страницы подряд
+        if not items:
+            empty_count += 1
+            logger.info(f"Страница {page} пуста (empty_count={empty_count})")
+            if empty_count >= 3:
+                logger.info("Три пустые страницы подряд — останавливаемся.")
+                break
+            continue
+        else:
+            empty_count = 0
+
         # —————————————————————
         # ВЫЧИСЛЯЕМ stock# и photos
         for item in items:
-            # 1) вытаскиваем из preview URL параметр imageKeys, например "43142134~SID~I1"
             preview_url = item.get("preview", "")
             parsed = urllib.parse.urlparse(preview_url)
             qs = urllib.parse.parse_qs(parsed.query)
-            image_keys = qs.get("imageKeys", [""])[0]  # "43142134~SID~I1"
-            stock = image_keys.split("~")[0]  # "43142134"
+            image_keys = qs.get("imageKeys", [""])[0]
+            stock = image_keys.split("~")[0]
             item["stock#"] = stock
 
-            # 2) генерируем 13 ссылок I1..I13
             item["photos"] = [
                 f"https://vis.iaai.com/resizer?imageKeys={stock}~SID~I{i}&width=1000&height=300"
                 for i in range(1, 12)
@@ -103,8 +114,9 @@ def process_section(
 
         sleep_random(2, 5)
 
-    logger.info(f"🎉 Все страницы ({dyn_pages}) обработаны.")
+    logger.info(f"🎉 Все страницы обработаны или остановлено на пустых — остановлен на странице {page}.")
     return dyn_pages
+
 
 def run_section_with_restart(
     keyword: str,
