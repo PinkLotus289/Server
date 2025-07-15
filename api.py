@@ -100,9 +100,10 @@ def shutdown_scheduler():
 
 @app.get("/cars", response_model=List[Dict])
 async def get_cars(
-    limit:    int,
-    lastId:   int = Query(0, ge=0),
-    brand:    Optional[str] = Query(None, description="опциональная фильтрация по марке")
+    limit:       int,
+    lastStock:   Optional[str] = Query(None, alias="lastStock",
+                         description="stock# последнего лота предыдущей страницы"),
+    brand:       Optional[str] = Query(None, description="опциональная фильтрация по марке")
 ):
     # 1) Загружаем весь список
     with open(DATA_FILE, "r", encoding="utf-8") as f:
@@ -114,18 +115,21 @@ async def get_cars(
         items = [
             it for it in items
             if (
-                it.get("make", "").lower() == br                # если есть поле make
-                or br in it.get("title", "").lower()             # или в title
+                it.get("Make", "").lower() == br
+                or br in it.get("Title", "").lower()
             )
         ]
         if not items:
             raise HTTPException(404, f"Нет лотов бренда «{brand}»")
 
-    # 3) Ищем позицию lastId
-    if lastId:
-        idx = next((i for i, it in enumerate(items) if it.get("lot_id") == lastId), None)
+    # 3) Ищем позицию lastStock
+    if lastStock:
+        idx = next(
+            (i for i, it in enumerate(items) if str(it.get("stock#")) == lastStock),
+            None
+        )
         if idx is None:
-            raise HTTPException(400, f"lastId={lastId} не найден в результирующем списке")
+            raise HTTPException(400, f"lastStock={lastStock} не найден в результирующем списке")
         start = idx + 1
     else:
         start = 0
@@ -133,6 +137,7 @@ async def get_cars(
     # 4) Берём срез limit штук
     slice_ = items[start : start + limit]
     return slice_
+
 @app.post("/admin/run-parser", status_code=status.HTTP_202_ACCEPTED)
 def run_parser():
     global parser_proc
