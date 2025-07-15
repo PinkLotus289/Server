@@ -109,18 +109,16 @@ async def get_cars(
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         items = json.load(f)
 
-    # 2) Фильтруем по марке, если указали
+    # 2) Фильтруем по ключевому слову в title, если указали brand
     if brand:
-        br = brand.lower()
-        items = [
+        br = brand.strip().lower()
+        filtered = [
             it for it in items
-            if (
-                it.get("Make", "").lower() == br
-                or br in it.get("Title", "").lower()
-            )
+            if br in it.get("title", "").lower()
         ]
-        if not items:
-            raise HTTPException(404, f"Нет лотов бренда «{brand}»")
+        if not filtered:
+            raise HTTPException(404, f"Нет лотов с «{brand}» в title")
+        items = filtered
 
     # 3) Ищем позицию lastStock
     if lastStock:
